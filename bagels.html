@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bagels Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bagels Game</h2>
+        <button type="button" id="startGameButton">Start Game!</button>
+        <p>
+            Let's play a guessing game. I chose three digits... guess what they are!
+        </p>
+        <table class="table table-striped"><tr>
+        <th><input type="text" class="input-sm" maxlength="1" id="guess1"></th>
+        <th><input type="text" class="input-sm" maxlength="1" id="guess2"></th>
+        <th><input type="text" class="input-sm" maxlength="1" id="guess3"></th>
+        <th><button type="button" id="guessButton">Guess!</button></th></tr>
+        <tbody id="guesses">
+          <!-- To be populated by javascript -->
+        </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="bagels.js"></script>
+</body>
+
+</html>
